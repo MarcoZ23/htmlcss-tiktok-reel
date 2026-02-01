@@ -33,15 +33,13 @@ video {
 	right: 0;
 	display: flex;
 	color: white;	
+i {margin: 1rem;
+	flex-grow:1}
+	
 /* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
-
-i{
-	margin: 1rem;
-	flex-grow:1;
-}
-
+	
 .bi-search{
 text-align: right;
 }
@@ -80,9 +78,20 @@ footer {
 	position: absolute;
 	right: 0;
 	top: 40%;
+	display: flex;
+	flex-direction: column;
+	color: white;
+	text-align: center;
+	justify-content: space-between;
+	
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
+}
+
+img{
+	width: 40px;
+	border-radius: 1rem;
 }
 
 /* ---------------------
