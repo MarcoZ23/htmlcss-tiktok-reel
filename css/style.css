@@ -67,10 +67,32 @@ footer {
 	right: 0;
 	bottom: 0;
 	color: #fff;
+	display: flex;
+	flex-direction:column;
+div{ margin-bottom: 0.5rem;}
+	
+
 
 	/* Inserisci qui sotto 
 	le tue regole, se necessario. */
 }
+
+nav{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	padding: 0.5rem;
+	button{
+		font-size: 3.rem;
+		height: 1.5rem;
+		width: 2.5rem;
+		border-radius: 0.5rem;
+		border-color: #70006af8;
+		}
+}
+
+
 
 /* Sidebar */
 .sidebar {
